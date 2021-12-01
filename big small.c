@@ -2,16 +2,9 @@
 main()
 {
 	int a,b;
-	printf("enter number:");
+	printf("enter one value a:");
 	scanf("%d",&a);
-	printf("enter another number:");
+	printf("enter second value b:");
 	scanf("%d",&b);
-	if(a>b)
-	{
-		printf("%d is big",a);
-	}
-	else
-	{
-		printf("%d is big",b);
-	}
+	(a<b)?(printf("a is small")):(printf("b is small"));
 }
