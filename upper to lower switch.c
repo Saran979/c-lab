@@ -8,7 +8,15 @@ main()
 	{
 	case 1:c=c+32;
 	       printf("converted character is:%c",c);break;
-	case 0:c=c-32;
-		   printf("converted character is:%c",c);break;
+	case 0:switch(c>=97 && c<=122)
+            {
+			case 1:c=c-32;
+		            printf("converted character is:%c",c);break;	
+		    case 0:switch(c>='0' && c<='9')
+		            {
+		   	        case 1: printf("entered character is number");break;
+		            }
+		      
+            } 
     }
 }
