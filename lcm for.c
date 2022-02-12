@@ -1,10 +1,10 @@
 #include<stdio.h>
-main()
+int main()
 {
 	int n,a,b,k,lcm=1,i;
-	printf("enter first number:");
+	
 	scanf("%d",&a);
-	printf("enter second number:");
+
 	scanf("%d",&b);
 	k=(a>b) ? a:b;
 	for(i=k;i>=k;i++)
@@ -14,5 +14,5 @@ main()
 			lcm=i;break;
 		}
 	}
-	printf("lcm:%d",lcm);
+	printf("%d",lcm);
 }
